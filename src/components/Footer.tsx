@@ -1,13 +1,13 @@
 
 import React from "react";
-import logoBlack from "@/assets/logo-black.png";
+import kalybrateLogo from "@/assets/kalybrate-logo.png";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-white py-12 border-t border-gray-100">
       <div className="section-container">
         <div className="flex flex-col items-center gap-6">
-          <img src={logoBlack} alt="Kalybrate AI" className="h-8 w-auto" />
+          <img src={kalybrateLogo} alt="Kalybrate AI" className="h-8 w-auto" />
           <p className="text-center text-gray-600 text-base max-w-md">
             The ground truth for AI model performance.
           </p>

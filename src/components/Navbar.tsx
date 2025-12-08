@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import logoBlack from "@/assets/logo-black.png";
-import logoWhite from "@/assets/logo-white.png";
+import kalybrateLogo from "@/assets/kalybrate-logo.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,7 +56,7 @@ const Navbar = () => {
           aria-label="Kalybrate AI"
         >
           <img 
-            src={logoBlack} 
+            src={kalybrateLogo} 
             alt="Kalybrate AI Logo" 
             className="h-8 sm:h-10 w-auto" 
           />
