@@ -113,14 +113,21 @@ const Hero = () => {
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Atlas: Where Code<br className="hidden sm:inline" />Meets Motion
+              Taming AI Chaos<br className="hidden sm:inline" />For Production
             </h1>
             
             <p 
-              style={{ animationDelay: "0.5s" }} 
-              className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
+              style={{ animationDelay: "0.4s" }} 
+              className="section-subtitle mt-2 sm:mt-4 mb-2 sm:mb-4 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-semibold text-lg sm:text-xl text-left"
             >
-              The humanoid companion that learns and adapts alongside you.
+              Your AI Models Fail 12-20% of the Time. We Find Out Why.
+            </p>
+            
+            <p 
+              style={{ animationDelay: "0.5s" }} 
+              className="section-subtitle mt-1 sm:mt-2 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-700 font-normal text-base sm:text-lg text-left"
+            >
+              We stress-test language models, AI agents, and workflows to uncover failure modes before your users do—then build the synthetic training data to fix them.
             </p>
             
             <div 
@@ -138,12 +145,29 @@ const Hero = () => {
                   cursor: 'pointer',
                   fontSize: '14px',
                   lineHeight: '20px',
-                  padding: '16px 24px', // Slightly reduced padding for mobile
+                  padding: '16px 24px',
                   border: '1px solid white',
                 }}
               >
-                Request Access
+                Start Free Diagnostic
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+              </a>
+              <a 
+                href="#testimonials" 
+                className="flex items-center justify-center group w-full sm:w-auto text-center" 
+                style={{
+                  backgroundColor: 'transparent',
+                  borderRadius: '1440px',
+                  boxSizing: 'border-box',
+                  color: '#1a1a1a',
+                  cursor: 'pointer',
+                  fontSize: '14px',
+                  lineHeight: '20px',
+                  padding: '16px 24px',
+                  border: '1px solid #1a1a1a',
+                }}
+              >
+                View Case Studies
               </a>
             </div>
           </div>
