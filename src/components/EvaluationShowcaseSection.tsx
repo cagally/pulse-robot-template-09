@@ -32,7 +32,7 @@ const EvaluationShowcaseSection = () => {
   return (
     <section ref={sectionRef} className="w-full py-20 bg-gray-100" id="evaluation-engine">
       <div className="container px-6 lg:px-8 mx-auto">
-        <div className="flex flex-col items-center opacity-0 translate-y-10 transition-all duration-1000">
+        <div className="flex flex-col items-center transition-all duration-1000">
           <div className="mb-12 text-center">
             <div className="pulse-chip mb-4">
               <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">04</span>
