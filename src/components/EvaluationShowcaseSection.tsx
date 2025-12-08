@@ -35,7 +35,7 @@ const EvaluationShowcaseSection = () => {
         <div className="flex flex-col items-center opacity-0 translate-y-10 transition-all duration-1000">
           <div className="mb-12 text-center">
             <div className="pulse-chip mb-4">
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">03</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">04</span>
               <span>Under The Hood</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold mb-4">
