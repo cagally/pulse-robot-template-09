@@ -77,7 +77,7 @@ const EvaluationShowcaseSection = () => {
                 </svg>
               </div>
               <h4 className="text-lg font-semibold mb-2">Edge Case Detection</h4>
-              <p className="text-gray-600">Automatically discovers failure modes across thousands of adversarial inputs and stress scenarios.</p>
+              <p className="text-gray-600">Automatically discovers failure modes across thousands of adversarial inputs.</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-elegant hover:shadow-elegant-hover transition-all duration-300">
@@ -87,17 +87,17 @@ const EvaluationShowcaseSection = () => {
                 </svg>
               </div>
               <h4 className="text-lg font-semibold mb-2">Performance Benchmarking</h4>
-              <p className="text-gray-600">Quantified metrics comparing your agent against industry baselines and competitor performance.</p>
+              <p className="text-gray-600">Quantified metrics comparing your agent against industry baselines.</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-elegant hover:shadow-elegant-hover transition-all duration-300">
               <div className="w-12 h-12 bg-pulse-100 rounded-full flex items-center justify-center mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13 10V3L4 14H11V21L20 10H13Z" stroke="#FC4D0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#FC4D0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <h4 className="text-lg font-semibold mb-2">Continuous Monitoring</h4>
-              <p className="text-gray-600">Track reliability over time with real-time drift detection and regression alerts.</p>
+              <p className="text-gray-600">Track reliability over time with real-time drift and regression detection.</p>
             </div>
           </div>
         </div>
