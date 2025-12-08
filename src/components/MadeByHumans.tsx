@@ -1,5 +1,6 @@
 
 import React from "react";
+import kalybrateLogo from "@/assets/kalybrate-logo.png";
 const MadeByHumans = () => {
   return <section id="made-by-humans" className="w-full bg-white py-0">
       <div className="section-container opacity-0 animate-on-scroll pb-2">
@@ -10,7 +11,7 @@ const MadeByHumans = () => {
           backgroundImage: "url('/background-section3.png')"
         }}>
             <div className="flex items-center text-white">
-              <img src="/logo.svg" alt="Pulse Robot Logo" className="h-5 sm:h-6 w-auto mr-3 invert" />
+              <img src={kalybrateLogo} alt="Kalybrate AI Logo" className="h-5 sm:h-6 w-auto mr-3" />
               <span className="text-white text-xl font-medium">
             </span>
             </div>
