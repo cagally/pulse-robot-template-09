@@ -57,7 +57,7 @@ const Navbar = () => {
           aria-label="Kalybrate AI"
         >
           <img 
-            src={isScrolled ? logoBlack : logoWhite} 
+            src={logoBlack} 
             alt="Kalybrate AI Logo" 
             className="h-8 sm:h-10 w-auto" 
           />
