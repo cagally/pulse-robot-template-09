@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import kalybrateLogo from "@/assets/kalybrate-logo.png";
+import kalybrateLogo from "@/assets/kalybrate-logo-blue.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

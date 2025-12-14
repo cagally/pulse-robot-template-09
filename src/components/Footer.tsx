@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Linkedin, Twitter, Mail } from "lucide-react";
-import kalybrateLogo from "@/assets/kalybrate-logo.png";
+import kalybrateLogo from "@/assets/kalybrate-logo-blue.png";
 
 const Footer = () => {
   const scrollToTop = () => {
