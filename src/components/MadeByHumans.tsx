@@ -1,6 +1,6 @@
 
 import React from "react";
-import kalybrateLogo from "@/assets/kalybrate-logo.png";
+import kalybrateLogo from "@/assets/kalybrate-logo-blue.png";
 
 const MadeByHumans = () => {
   return (
